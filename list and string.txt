@@ -1,0 +1,27 @@
+void main(){
+  List abc=[1,2,3,4,'S'];
+  print(abc);
+  print(abc.length);
+  print(abc.reversed);
+  print(abc.first);
+  print(abc.last);
+
+  List <String>DD=['b','J','g','f'];
+  print(DD);
+  
+  Map g={"name":'PRANAV',"place":'KOZHIKODE'};
+  Map<String,int>j={"pva":100};
+  print(j);
+  
+}
+
+
+output
+
+[1, 2, 3, 4, S]
+5
+(S, 4, 3, 2, 1)
+1
+S
+[b, J, g, f]
+{pva: 100}
